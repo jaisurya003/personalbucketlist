@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* List Section */
+.bucket-list {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bucket-list h2 {
+    text-align: center;
+}
+
+.bucket-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bucket-list li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.bucket-list li .icon {
+    margin-right: 10px;
+    color: #4CAF50;
+}
+
+.bucket-list li.completed .icon {
+    color: orange;
+}
+
+@media (max-width: 768px) {
+    .bucket-list {
+        padding: 15px;
+    }
+
+    .bucket-list h2 {
+        font-size: 20px;
+    }
+}
+.bucket-list li:hover {
+    background-color: #e0f7fa;
+    transition: background-color 0.3s;
+}
+header {
+    background: linear-gradient(90deg, #4CAF50, #3e8e41);
+}
+
+footer {
+    font-size: 14px;
+    background: linear-gradient(90deg, #3e8e41, #4CAF50);
+}
